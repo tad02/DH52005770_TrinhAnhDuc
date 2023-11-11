@@ -23,7 +23,10 @@ int main(){
  cout <<"Nhap vao 1 so nguyen: ";
  cin >> num;
  if(kiemTraSoChinhPhuong(num)){
-   cout<<"\nSo chinh phuong";
+   cout<<endl<<num<< " la so chinh phuong";
+ }
+ if(kiemTraSoHoanThien(num)){
+   cout<<endl<<num<<" la so hoan thien";
  }
 
  return 0;
